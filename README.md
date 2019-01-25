@@ -23,7 +23,7 @@ Türkiye Cumhuriyet Merkez Bankasını kullanarak dövizleri size haberdar eden 
     })();
 >Bu örnekte nasıl **Dövizlerin Güncellendiği Tarihi** alacağınız gösterilmiş.
     
-	(async => {
+	(async () => {
 		const TCMB_Doviz = require('tcmb-doviz');
 		const Doviz = new TCMB_Doviz();
 		const res = await Doviz.guncelTarih();
