@@ -1,0 +1,24 @@
+{
+  "name": "tcmb-doviz",
+  "version": "1.0.0",
+  "description": "Türkiye Cumhuriyet Merkez Bankasını kullanarak dövizleri size haberdar eden bir npm modülü.",
+  "main": "index.js",
+  "keywords": [
+    "doviz",
+    "tcmb"
+  ],
+  "author": "Emir Kabal",
+  "license": "MIT",
+  "dependencies": {
+    "snekfetch": "^4.0.4",
+    "xml2js": "^0.4.19"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emirkabal/tcmb-doviz.git"
+  },
+  "homepage": "https://github.com/emirkabal/tcmb-doviz#readme"
+}
