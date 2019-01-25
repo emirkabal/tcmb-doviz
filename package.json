@@ -1,6 +1,6 @@
 {
   "name": "tcmb-doviz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Türkiye Cumhuriyet Merkez Bankasını kullanarak dövizleri size haberdar eden bir npm modülü.",
   "main": "index.js",
   "keywords": [
