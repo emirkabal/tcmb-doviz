@@ -7,7 +7,7 @@ Türkiye Cumhuriyet Merkez Bankasını kullanarak dövizleri size haberdar eden 
 
 >Bu örnekte nasıl **Döviz Listesini** alacağınız gösterilmiş.
     
-	(async => {
+	(async () => {
 		const TCMB_Doviz = require('tcmb-doviz');
 		const Doviz = new TCMB_Doviz();
 		const res = await Doviz.DovizListesi();
@@ -15,7 +15,7 @@ Türkiye Cumhuriyet Merkez Bankasını kullanarak dövizleri size haberdar eden 
     })();
 >Bu örnekte nasıl **Döviz Bilgilerini** alacağınız gösterilmiş.
     
-	(async => {
+	(async () => {
 		const TCMB_Doviz = require('tcmb-doviz');
 		const Doviz = new TCMB_Doviz();
 		const res = await Doviz.getKur("USD"); //buraya usd yerine listedeki sırasını da yazabilirsiniz örneğin 0
@@ -27,5 +27,14 @@ Türkiye Cumhuriyet Merkez Bankasını kullanarak dövizleri size haberdar eden 
 		const TCMB_Doviz = require('tcmb-doviz');
 		const Doviz = new TCMB_Doviz();
 		const res = await Doviz.guncelTarih();
+		console.log(res);
+    })();
+
+>Bu örnekte nasıl **Dövizlerin Array Listesini** alacağınız gösterilmiş.
+    
+	(async () => {
+		const TCMB_Doviz = require('tcmb-doviz');
+		const Doviz = new TCMB_Doviz();
+		const res = await Doviz.kurlarArray();
 		console.log(res);
     })();
