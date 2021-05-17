@@ -1,6 +1,7 @@
 ![tcmb-doviz](https://i.imgur.com/829wnb3.png)
 **tcmb-doviz** is used only to display the exchange rates of the Central Bank of Turkey.
-[![npm version](https://badge.fury.io/js/tcmb-doviz.svg)](https://badge.fury.io/js/tcmb-doviz) ![npm](https://img.shields.io/npm/dm/tcmb-doviz)
+
+![npm version](https://badge.fury.io/js/tcmb-doviz.svg) ![npm](https://img.shields.io/npm/dm/tcmb-doviz)
 ## Installation
 ```bash
 # installation via npm
