@@ -12,7 +12,7 @@ yarn add tcmb-doviz
 ```
 ## Examples
 ```js
-const tcmbdoviz = require('./lib/main');
+const tcmbdoviz = require('tcmb-doviz');
 
 const data = await tcmbdoviz.getData() // Get All Data
 console.log(data)
